@@ -27,6 +27,7 @@
         <name>ip-172-31-1-133.us-east-2.compute.internal-releases</name>
         <url>http://3.21.159.154:8081/artifactory/test</url>
     </repository>
+    <!-- Repo-->
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-1-133.us-east-2.compute.internal-snapshots</name>
@@ -34,6 +35,7 @@
     </snapshotRepository>
   </distributionManagement>
   <build>
+    
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
