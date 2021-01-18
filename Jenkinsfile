@@ -25,7 +25,7 @@ pipeline {
             }
         }
         
-        stage ("notify") {
+        stage ("notifies") {
             steps {
                 emailext body: 'this is status of job "${BUILD_URL}"', subject: 'Job Status', to: 'jshankarraju@gmail.com'
             }
